@@ -1,0 +1,102 @@
+2026-03-13 17:16:11 INFO  Job:1755 -  map 100% reduce 100%
+2026-03-13 17:16:12 INFO  Job:1766 - Job job_local887864680_0001 completed successfully
+2026-03-13 17:16:12 INFO  Job:1773 - Counters: 30
+        File System Counters
+                FILE: Number of bytes read=650199370
+                FILE: Number of bytes written=36235092
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+2026-03-13 17:16:12 INFO  Job:1766 - Job job_local887864680_0001 completed successfully
+2026-03-13 17:16:12 INFO  Job:1773 - Counters: 30
+        File System Counters
+                FILE: Number of bytes read=650199370
+                FILE: Number of bytes written=36235092
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                FILE: Number of bytes written=36235092
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+        Map-Reduce Framework
+                Map input records=284808
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+        Map-Reduce Framework
+                Map input records=284808
+                Map output records=284807
+                Map output bytes=5463723
+        Map-Reduce Framework
+                Map input records=284808
+                Map output records=284807
+                Map output bytes=5463723
+                Map output materialized bytes=6033367
+                Map output records=284807
+                Map output bytes=5463723
+                Map output materialized bytes=6033367
+                Input split bytes=415
+                Combine input records=0
+                Map output materialized bytes=6033367
+                Input split bytes=415
+                Combine input records=0
+                Input split bytes=415
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=6
+                Combine output records=0
+                Reduce input groups=6
+                Reduce shuffle bytes=6033367
+                Reduce shuffle bytes=6033367
+                Reduce input records=284807
+                Reduce input records=284807
+                Reduce output records=6
+                Spilled Records=569614
+                Shuffled Maps =5
+                Failed Shuffles=0
+                Spilled Records=569614
+                Shuffled Maps =5
+                Failed Shuffles=0
+                Merged Map outputs=5
+                GC time elapsed (ms)=63
+                Shuffled Maps =5
+                Failed Shuffles=0
+                Merged Map outputs=5
+                GC time elapsed (ms)=63
+                Total committed heap usage (bytes)=2572681216
+        Shuffle Errors
+                BAD_ID=0
+                Merged Map outputs=5
+                GC time elapsed (ms)=63
+                Total committed heap usage (bytes)=2572681216
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                Total committed heap usage (bytes)=2572681216
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=150845136
+        File Output Format Counters
+                Bytes Written=252
+2026-03-13 17:16:12 INFO  StreamJob:1029 - Output directory: /creditcard/output
+[root@64c80247d770 hadoop]# cat /creditcard/output/part-00000
+1_Bucket_$0-$10 97314   249     97065   0.2559%
+2_Bucket_$10-$50        92390   56      92334   0.0606%
+3_Bucket_$50-$100       37718   57      37661   0.1511%
+4_Bucket_$100-$500      47893   95      47798   0.1984%
+5_Bucket_$500-$1000     6423    26      6397    0.4048%
+6_Bucket_$1000+ 3069    9       3060    0.2933%
